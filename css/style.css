@@ -1,0 +1,95 @@
+/* Guia do documento ==============================================
+    I - Fontes
+    II - Cabeçalho
+    III - Social Links
+    IV - Seção Sobre
+ ================================================================== */
+
+
+/*Fontes Google
+ ================================================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,500&display=swap');
+
+/* Header
+ ================================================================== */
+
+header {
+    position: relative;
+    height: 800px;
+    min-height: 500px;
+    width: 100%;
+    background: #161415 url(../imagens/back_home.jpg) no-repeat top center;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+}
+
+.logo_inicio {
+    color: #fff;
+    font-size: 2.1rem;
+    padding: 0;
+    padding-left: 20px;
+    float: left;
+}
+
+.p-sombra {
+    text-shadow: -2px 1px 4px #000000;
+    font-size: 1.3em;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+}
+
+
+/* social links */
+
+.social {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.rede {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-left: 20px;
+    transition: all 0.4s ease-out;
+    border-radius: 50%;
+}
+
+.rede:hover {
+    cursor: pointer;
+    transform: translateY(-25px);
+    box-shadow: 4px 30px 16px 0px rgba(50, 50, 50, 0.45);
+}
+
+.rede#facebook {
+    background-color: #2372a3;
+}
+
+.rede#twitter {
+    background-color: #0084b4;
+}
+
+.rede#instagram {
+    background-color: #3f729b;
+}
+
+.rede#plus {
+    background-color: #dd4b39;
+}
+
+.icone {
+    margin: 0px auto;
+    padding: 15px;
+    width: 60px;
+}
+
+
+/* Seção Sobre
+ ================================================================== */
